@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+  }
+  .banner{
+    background-image:linear-gradient(rgba(180, 123, 97, 0.1),rgba(180, 123, 97, 0.1)),url(https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-attachment:fixed;
+    padding:100px 0;
+  }
+  
+  .nav{
+    float:right;
+    margin-top:-60px;
+    
+  }
+  .nav ul{
+    list-style: none;
+    
+   }
+  .nav a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px;
+    
+  }
+  .nav li{
+    list-style:none;
+    display:inline-block;
+    text-decoration:none;
+    overflow:hidden;
+  }
+  .nav a:hover{
+    color:#d5d5d5;
+    background-color:rgba(219, 181, 146, 0.507);
+    
+  }
+  .containertop h1{
+    font-size:40px;
+  }
+  .containertop{
+    text-align:center;
+    color:#f3f3f3;
+    letter-spacing:4px;
+    line-height:3;
+  }
+  
+  .container{
+    margin:0 auto;
+    width:950px;
+    word-spacing:2px;
+    line-height:1.5;
+  }
+  .container h3{
+    font-size:24px;
+    padding:15px 0;
+  }
+  
+  /* mediaqueries  */
+  
+  @media(max-width:1200px){
+    .container{
+      width:680px;
+    }
+  
+  .containertop{
+    letter-spacing:1px;
+    line-height:1.3;
+  }
+  @media(max-width:880px){
+    .container{
+      width:500px;
+    }
+      .nav li {
+          display:block;
+   }
+    .containertop{
+    letter-spacing:1px;
+    line-height:1.1;
+  }
+  }
+  
+  @media(max-width:520px){
+    .container{
+      width:420px;
+    }
+      .nav li {
+          display:block;
+   }
+    .containertop{
+    letter-spacing:1px;
+    line-height:1.1;
+  }
+  }
+  
+  @media (max-width:550px){
+  
+      .container{
+    width:300px;
+      }
+    
+    .nav{
+    float:none;
+    text-align:center;
+  }
+      .nav li {
+          display:block;
+      }
+    .nav a:hover{
+    color:#d5d5d5;
+    border-radius:20px;
+    background-color:none;
+  }
+  
+    .containertop{
+    letter-spacing:1px;
+    line-height:1.1;
+    padding-top:10px;
+  }
+  }
